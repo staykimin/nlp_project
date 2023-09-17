@@ -16,6 +16,7 @@ Dataset Dikumpulkan Menggunakan Teknik Scraping Dari Bebagai Artikel Berita Nasi
 
 - [Antara News](https://www.antaranews.com/)
 ## Dataset
+- [Dataset Antara News](https://raw.githubusercontent.com/staykimin/nlp_project/kimin/Dataset/datasetv1.min)
 
 Dataset Disimpan Dalam Format JSON dan Memiliki Beberapa Parameter Antara Lain
 
@@ -32,7 +33,7 @@ Dataset Disimpan Dalam Format JSON dan Memiliki Beberapa Parameter Antara Lain
 | :-------- | :------- |
 | `1` | `Antara News` |
 
-- [Dataset Antara News](https://raw.githubusercontent.com/staykimin/nlp_project/kimin/Dataset/datasetv1.min)
+
 
 
 ## Training_Dataset
