@@ -51,5 +51,5 @@ python scaping.py
 
 Untuk Contact Person, Bisa Langsung Gabung Pada Link Grup WA Berikut
 
--[Belajar Python Newbie](https://chat.whatsapp.com/KVgG1OgRWJm14U3JpLqEhR)
+- [Belajar Python Newbie](https://chat.whatsapp.com/KVgG1OgRWJm14U3JpLqEhR)
 
