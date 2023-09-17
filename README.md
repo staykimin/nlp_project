@@ -6,8 +6,8 @@ Ini Adalah Project NLP (Natural Language Processing) Untuk Bahasa Indonesia Yang
 Project Ini Bertujuan Untuk Mengembangkan NLP Khusus Bahasa Indonesia Agar Bisa Lebih Akurat dan Presisi Guna Mendapatkan Hasil Yang Maksimal
 
 ## Roadmap
-- [Sumber Dataset](##Sumber_Dataset)
-- [Dataset](##Dataset)
+- [Sumber Dataset](#Sumber_Dataset)
+- [Dataset](#Dataset)
 - [Training Dataset](#Training_Dataset) 
 
 
