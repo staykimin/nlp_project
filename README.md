@@ -7,16 +7,16 @@ Project Ini Bertujuan Untuk Mengembangkan NLP Khusus Bahasa Indonesia Agar Bisa 
 
 ## Roadmap
 - [Sumber Dataset](#Sumber_Dataset)
-- [Dataset](##Dataset)
+- [Dataset](#Dataset)
 - [Model Pretained](#model)
 - [Training Dataset](#training_dataset) 
 
 
-## Sumber Dataset
+# Sumber_Dataset
 Dataset Dikumpulkan Menggunakan Teknik Scraping Dari Bebagai Artikel Berita Nasional Yang Meliputi :
 
 - [Antara News](https://www.antaranews.com/)
-## Dataset
+# Dataset
 
 Dataset Disimpan Dalam Format JSON dan Memiliki Beberapa Parameter Antara Lain
 
