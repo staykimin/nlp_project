@@ -7,16 +7,15 @@ Project Ini Bertujuan Untuk Mengembangkan NLP Khusus Bahasa Indonesia Agar Bisa 
 
 ## Roadmap
 - [Sumber Dataset](#Sumber_Dataset)
-- [Dataset](#Dataset)
-- [Model Pretained](#model)
-- [Training Dataset](#training_dataset) 
+- [Dataset](##Dataset)
+- [Training Dataset](#Training_Dataset) 
 
 
-# Sumber_Dataset
+## Sumber Dataset
 Dataset Dikumpulkan Menggunakan Teknik Scraping Dari Bebagai Artikel Berita Nasional Yang Meliputi :
 
 - [Antara News](https://www.antaranews.com/)
-# Dataset
+## Dataset
 
 Dataset Disimpan Dalam Format JSON dan Memiliki Beberapa Parameter Antara Lain
 
@@ -31,6 +30,8 @@ Dataset Disimpan Dalam Format JSON dan Memiliki Beberapa Parameter Antara Lain
 
 
 
+## Training_Dataset
+Training Dataset Menggunakan Transformers Dengan Teknik byte-level
 ## Instalasi & Runing Program
 
 Instalasi Modul Yang Di perlukan
@@ -42,3 +43,13 @@ Untuk Melakukan Scraping Data
 ```python
 python scaping.py
 ```
+
+![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+
+
+## Contact
+
+Untuk Contact Person, Bisa Langsung Gabung Pada Link Grup WA Berikut
+
+-[Belajar Python Newbie](https://chat.whatsapp.com/KVgG1OgRWJm14U3JpLqEhR)
+
