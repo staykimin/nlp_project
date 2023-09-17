@@ -6,12 +6,12 @@ Ini Adalah Project NLP (Natural Language Processing) Untuk Bahasa Indonesia Yang
 Project Ini Bertujuan Untuk Mengembangkan NLP Khusus Bahasa Indonesia Agar Bisa Lebih Akurat dan Presisi Guna Mendapatkan Hasil Yang Maksimal
 
 ## Roadmap
-- [Sumber Dataset](#Sumber_Dataset)
+- [Sumber Dataset](##Sumber_Dataset)
 - [Dataset](##Dataset)
 - [Training Dataset](#Training_Dataset) 
 
 
-## Sumber Dataset
+## Sumber_Dataset
 Dataset Dikumpulkan Menggunakan Teknik Scraping Dari Bebagai Artikel Berita Nasional Yang Meliputi :
 
 - [Antara News](https://www.antaranews.com/)
@@ -38,10 +38,9 @@ Instalasi Modul Yang Di perlukan
 ```python
 pip install -r modul.min
 ```
-Untuk Melakukan Scraping Data
-
+Untuk Run Program
 ```python
-python scaping.py
+python app.py
 ```
 
 ![Logo](Untitled.jpeg)
