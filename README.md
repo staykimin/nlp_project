@@ -28,6 +28,11 @@ Dataset Disimpan Dalam Format JSON dan Memiliki Beberapa Parameter Antara Lain
 | `raw_text` | `text` | Isi Content / Artikel Tersebut |
 | `publised_date` | `text` | Tanggal Publish Artikel |
 
+| ID Sumber | Website Name     |
+| :-------- | :------- |
+| `1` | `Antara News` |
+
+[Dataset](antaranews)
 
 
 ## Training_Dataset
