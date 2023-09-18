@@ -1,6 +1,6 @@
 
 # NLP Project By Python Newbie
-<img align="center" float="none" width="33%" src="Untitled.jpeg">
+<img margin-left="auto" align="center" float="none" width="33%" src="Untitled.jpeg">
 
 Ini Adalah Project NLP (Natural Language Processing) Untuk Bahasa Indonesia Yang Bersifat Open Source Yang Digagas Oleh Anggota Grup Python Newbie.
 
