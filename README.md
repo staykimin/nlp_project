@@ -1,5 +1,6 @@
 
 # NLP Project By Python Newbie
+![Logo](Untited.jpeg)
 
 Ini Adalah Project NLP (Natural Language Processing) Untuk Bahasa Indonesia Yang Bersifat Open Source Yang Digagas Oleh Anggota Grup Python Newbie.
 
@@ -64,7 +65,7 @@ Proses Decode Token
 ```python
 decoded_text = tokenizer.decode(encoded.ids)
 ```
-![Logo](Untitled.jpeg)
+![Logo](Screenshot from 2023-09-18 12-38-26.png)
 
 
 ## Contact
