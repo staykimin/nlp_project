@@ -1,6 +1,6 @@
 
 # NLP Project By Python Newbie
-<p align="center"
+<p align="center">
   <img width="33%" src="Untitled.jpeg">
 </p>
 
