@@ -65,7 +65,7 @@ Proses Decode Token
 ```python
 decoded_text = tokenizer.decode(encoded.ids)
 ```
-![Logo](Screenshot from 2023-09-18 12-38-26.png)
+![Logo](hasil.png)
 
 
 ## Contact
