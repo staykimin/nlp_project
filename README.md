@@ -42,13 +42,28 @@ Training Dataset Menggunakan Transformers Dengan Teknik byte-level
 
 Instalasi Modul Yang Di perlukan
 ```python
-pip install -r modul.min
+pip install transformers
 ```
-Untuk Run Program
+Import Library Ke Dalam Script Python
 ```python
-python app.py
+from tokenizers.implementations import ByteLevelBPETokenizer
 ```
-
+Import Model
+```python
+tokenizer = ByteLevelBPETokenizer.from_file("/model/kimin_tokenizer-vocab.json", "/model/kimin_tokenizer-merges.txt")
+```
+Proses tokenizer
+```python
+text= "iNI ADALAH CONTOH text yang Akan Di Tokenizer"
+encoded = tokenizer.encode(text)
+tokens = encoded.tokens
+token_ids = encoded.ids
+sub_tokens = encoded.tokens[1:-1]
+```
+Proses Decode Token
+```python
+decoded_text = tokenizer.decode(encoded.ids)
+```
 ![Logo](Untitled.jpeg)
 
 
@@ -57,4 +72,5 @@ python app.py
 Untuk Contact Person, Bisa Langsung Gabung Pada Link Grup WA Berikut
 
 - [Belajar Python Newbie](https://chat.whatsapp.com/KVgG1OgRWJm14U3JpLqEhR)
+
 
