@@ -1,6 +1,6 @@
 
 # NLP Project By Python Newbie
-![Logo](Untited.jpeg)
+![Logo](Untitled.jpeg)
 
 Ini Adalah Project NLP (Natural Language Processing) Untuk Bahasa Indonesia Yang Bersifat Open Source Yang Digagas Oleh Anggota Grup Python Newbie.
 
