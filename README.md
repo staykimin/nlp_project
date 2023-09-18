@@ -9,7 +9,7 @@ Project Ini Bertujuan Untuk Mengembangkan NLP Khusus Bahasa Indonesia Agar Bisa 
 ## Roadmap
 - [Sumber Dataset](#Sumber_Dataset)
 - [Dataset](#Dataset)
-- [Training Dataset](#Training_Dataset) 
+- [Tokenizer](#Tokenizer) 
 
 
 ## Sumber_Dataset
@@ -37,8 +37,8 @@ Dataset Disimpan Dalam Format JSON dan Memiliki Beberapa Parameter Antara Lain
 
 
 
-## Training_Dataset
-Training Dataset Menggunakan Transformers Dengan Teknik byte-level
+## Tokenizer
+Tokenizer Dilakukan Menggunakan Transformers Dengan Metode byte-level
 ## Instalasi & Runing Program
 
 Instalasi Modul Yang Di perlukan
