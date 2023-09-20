@@ -76,9 +76,13 @@ Untuk Contact Person, Bisa Langsung Gabung Pada Link Grup WA Berikut
 - [Belajar Python Newbie](https://chat.whatsapp.com/KVgG1OgRWJm14U3JpLqEhR)
 
 # Collaborators
+ **Nama Contributor 1**
+  ![Avatar Contributor 1](https://avatars.githubusercontent.com/u/104739070?v=4)
 
-<!-- Automatically generate a list of collaborators and their avatars -->
+- **Nama Contributor 2**
+  ![Avatar Contributor 2](https://avatars.githubusercontent.com/u/145354193?v=4)
 
-<!---START:COLLABORATORS--->
-<!---END:COLLABORATORS--->
+- **Nama Contributor 3**
+  ![Avatar Contributor 3](https://avatars.githubusercontent.com/u/90900276?v=4)
+
 
