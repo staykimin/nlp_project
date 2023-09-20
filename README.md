@@ -76,15 +76,8 @@ Untuk Contact Person, Bisa Langsung Gabung Pada Link Grup WA Berikut
 - [Belajar Python Newbie](https://chat.whatsapp.com/KVgG1OgRWJm14U3JpLqEhR)
 
 # Collaborators
- **Nama Contributor 1**
  
 [<img src="https://github.com/vodapermadi.png" width="60px;"/><br /><sub><ahref="https://github.com/vodapermadi">vodapermadi</a></sub>](https://github.com/vodapermadi]
-  ![Avatar Contributor 1](https://avatars.githubusercontent.com/u/104739070?v=4)
-
-- **Nama Contributor 2**
-  ![Avatar Contributor 2](https://avatars.githubusercontent.com/u/145354193?v=4)
-
-- **Nama Contributor 3**
-  ![Avatar Contributor 3](https://avatars.githubusercontent.com/u/90900276?v=4)
-
+[<img src="https://github.com/fahmiaziz98.png" width="60px;"/><br /><sub><ahref="https://github.com/fahmiaziz98">fahmiaziz98</a></sub>](https://github.com/fahmiaziz98]
+[<img src="https://github.com/R012r.png" width="60px;"/><br /><sub><ahref="https://github.com/R012r">R012r</a></sub>](https://github.com/R012r]
 
