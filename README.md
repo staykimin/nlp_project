@@ -69,8 +69,8 @@ decoded_text = tokenizer.decode(encoded.ids)
 ![Logo](hasil.png)
 
 ## Collabolator
-- [Nama Kolaborator 1](https://github.com/R012r)
-- [Nama Kolaborator 2](https://github.com/vodapermadi)
+- !(https://avatars.githubusercontent.com/R012r)(https://github.com/R012r)
+- !(https://avatars.githubusercontent.com/vodapermadi)(https://github.com/vodapermadi)
 
 
 ## Contact
