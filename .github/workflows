@@ -1,0 +1,31 @@
+name: Update Collaborators
+
+on:
+  push:
+    branches:
+      - main  # Ganti dengan nama branch yang sesuai
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set Up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'  # Ganti dengan versi Python yang sesuai
+
+      - name: Run Automation Script
+        run: |
+          python your_automation_script.py  # Ganti dengan nama skrip otomatisasi Anda
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name 'Your Name'
+          git config user.email 'youremail@example.com'
+          git add README.md
+          git commit -m "Update collaborators list"
+          git push origin main  # Ganti dengan nama branch yang sesuai
