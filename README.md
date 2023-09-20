@@ -77,6 +77,8 @@ Untuk Contact Person, Bisa Langsung Gabung Pada Link Grup WA Berikut
 
 # Collaborators
  **Nama Contributor 1**
+ 
+[<img src="https://github.com/vodapermadi.png" width="60px;"/><br /><sub><ahref="https://github.com/vodapermadi">vodapermadi</a></sub>](https://github.com/vodapermadi]
   ![Avatar Contributor 1](https://avatars.githubusercontent.com/u/104739070?v=4)
 
 - **Nama Contributor 2**
