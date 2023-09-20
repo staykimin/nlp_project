@@ -68,10 +68,6 @@ decoded_text = tokenizer.decode(encoded.ids)
 ```
 ![Logo](hasil.png)
 
-## Collabolator
-- !(https://avatars.githubusercontent.com/R012r)(https://github.com/R012r)
-- !(https://avatars.githubusercontent.com/vodapermadi)(https://github.com/vodapermadi)
-
 
 ## Contact
 
