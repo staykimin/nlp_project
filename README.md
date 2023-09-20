@@ -6,10 +6,11 @@ Ini Adalah Project NLP (Natural Language Processing) Untuk Bahasa Indonesia Yang
 
 Project Ini Bertujuan Untuk Mengembangkan NLP Khusus Bahasa Indonesia Agar Bisa Lebih Akurat dan Presisi Guna Mendapatkan Hasil Yang Maksimal
 
-## Roadmap
+## Index List
 - [Sumber Dataset](#Sumber_Dataset)
 - [Dataset](#Dataset)
-- [Tokenizer](#Tokenizer) 
+- [Tokenizer](#Tokenizer)
+- [Collabolator](#Collabolator)
 
 
 ## Sumber_Dataset
@@ -66,6 +67,10 @@ Proses Decode Token
 decoded_text = tokenizer.decode(encoded.ids)
 ```
 ![Logo](hasil.png)
+
+## Collabolator
+- [Nama Kolaborator 1](https://github.com/R012r)
+- [Nama Kolaborator 2](https://github.com/vodapermadi)
 
 
 ## Contact
