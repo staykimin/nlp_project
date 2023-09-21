@@ -12,7 +12,7 @@ Dalam project ini Kita bertujuan untuk mengembangkan NLP khusus bahasa Indonesia
 - [Fill Mask](#Fill_Mask)
 - [Tokenizer](#Tokenizer)
 - [Collabolator](#Collabolator)
-- [Scraping](https://github.com/staykimin/nlp_project/tree/kimin/Scraping)
+- [Scraping](./Scraping/)
 
 
 ## Sumber_Dataset
