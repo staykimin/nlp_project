@@ -11,7 +11,7 @@ Dalam project ini Kita bertujuan untuk mengembangkan NLP khusus bahasa Indonesia
 - [Dataset](#Dataset)
 - [Tokenizer](#Tokenizer)
 - [Collabolator](#Collabolator)
-- [Scraping](#Scraping)
+- [Scraping](https://github.com/staykimin/nlp_project/tree/kimin/Scraping)
 
 
 ## Sumber_Dataset
