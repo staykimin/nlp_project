@@ -58,8 +58,8 @@ Proses Fill Mask
 ```python
 print(model(f"Dari Sekian Kata {model.tokenizer.mask_token} Kata Ini Lah Yang Paling Berharga"))
 ```
-<p text-align="justify"><img width="50%" src="image/fill_mask1.png"></p>
-<p text-align="justify"><img width="50%" src="image/fill_mask2.png"></p>
+<p text-align="justify"><img width="100%" src="image/fill_mask1.png"></p>
+<p text-align="justify"><img width="100%" src="image/fill_mask2.png"></p>
 
 ## Tokenizer
 Tokenizer Dilakukan Menggunakan library Transformers Dengan Metode byte-level
