@@ -1,6 +1,6 @@
 
 ## Scraping_Script
-<p align="center"><img width="50%" src="Untitled.jpeg"></p>
+<p align="center"><img width="50%" src="../Untitled.jpeg"></p>
 
 Script Yang Digunakan Untuk Mengumpulkan Dataset Yang Berupa Artikel Yang Terdapat Di Internet
 
