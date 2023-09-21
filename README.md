@@ -19,6 +19,9 @@ Dalam project ini Kita bertujuan untuk mengembangkan NLP khusus bahasa Indonesia
 Pengumpulan dataset menggunakan teknik scraping dari bebagai artikel berita nasional yang meliputi :
 
 - [Antara News](https://www.antaranews.com/)
+- [Tanah Bumbu Kab](https://mc.tanahbumbukab.go.id/feed/)
+- [Suara](https://www.suara.com/rss)
+- [Indonesia Kini](https://indonesiakini.go.id/rss)
 ## Dataset
 - [Dataset Antara News](https://raw.githubusercontent.com/staykimin/nlp_project/kimin/Dataset/datasetv1.min)
 
