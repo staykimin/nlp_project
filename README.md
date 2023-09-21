@@ -11,6 +11,7 @@ Dalam project ini Kita bertujuan untuk mengembangkan NLP khusus bahasa Indonesia
 - [Dataset](#Dataset)
 - [Tokenizer](#Tokenizer)
 - [Collabolator](#Collabolator)
+- [Scraping](#Scraping)
 
 
 ## Sumber_Dataset
