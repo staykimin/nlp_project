@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <title>Table #8</title>
+</head>
+<body>
+<div class="content">
+    <div class="container">
+        <h2 class="mb-5">Sumber Data</h2>
+        
+        <!-- Tabel Sumber Data -->
+        <div class="table-responsive custom-table-responsive">
+            <table class="table custom-table">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Link Website</th>
+                        <th scope="col">Create At</th>
+                        <th scope="col">Update At</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for i in data['sumber_data'] %}
+                        <tr scope='row'>
+                            <td>{{ i['id'] }}</td>
+                            <td>{{ i['link_website'] }}</td>
+                            <td>{{ i['created_at'] }}</td>
+                            <td>{{ i['update_at'] }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="mb-5">Dataset</h2>
+        <form action="{{ url_for('Utama')}}" method="POST" id="form1">>
+        </form>
+        <!-- Tambahkan tombol "Export to CSV" di bawah tulisan "Dataset" -->
+        <div class="mb-1">
+            <a href="{{ url_for('Download') }}" class="btn btn-success">Download JSON</a>
+            <button type="submit" form="form1" value="Start Scraping" class="btn btn-primary">Start Scraping</button>
+            <button type="button" class="btn btn-light">{{ data['total_data'] }}</button>
+        </div>
+
+        <!-- Tabel Dataset -->
+        <div class="table-responsive custom-table-responsive">
+            <table class="table custom-table" id="tabel-dataset">
+                <thead>
+                    <tr>  
+                        <th scope="col">ID</th>
+                        <th scope="col">Sumber Data</th>
+                        <th scope="col">Link Artikel</th>
+                        <th scope="col">Judul</th>
+                        <th scope="col">Publised Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Isi tabel dataset akan ditambahkan melalui JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Tombol-tombol pagination -->
+        <div class="pagination-container">
+            <button id="prev-button" class="btn btn-dark" onclick="prevPage()">Previous</button>
+            <span id="page-numbers"></span>
+            <button id="next-button" class="btn btn-dark" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    // Data dataset dari Jinja2
+    const dataset = {{ data['dataset']|tojson|safe }};
+    const itemsPerPage = 10; // Jumlah item per halaman
+    let currentPage = 1;
+
+    // Fungsi untuk menampilkan data pada halaman tertentu
+    function displayData(page) {
+        const table = document.getElementById("tabel-dataset").getElementsByTagName('tbody')[0];
+        const startIndex = (page - 1) * itemsPerPage;
+        const endIndex = Math.min(startIndex + itemsPerPage, dataset.length);
+
+        // Hapus semua baris
+        table.innerHTML = "";
+
+        // Tambahkan data ke tabel
+        for (let i = startIndex; i < endIndex; i++) {
+            const dataRow = dataset[i];
+            const row = table.insertRow(-1);
+            row.innerHTML = `
+                <td>${dataRow['id']}</td>
+                <td>${dataRow['id_sumber']}</td>
+                <td><small>${dataRow['link_sumber']}</small></td>
+                <td>${dataRow['judul']}</td>
+                <td>${dataRow['publised_date']}</td>
+            `;
+        }
+
+        // Update nomor halaman
+        document.getElementById("page-numbers").innerHTML = generatePageNumbers();
+    }
+
+    // Fungsi untuk menghasilkan nomor halaman
+    function generatePageNumbers() {
+        const totalPages = Math.ceil(dataset.length / itemsPerPage);
+        let pageNumbers = "";
+
+        // Batasi jumlah tombol halaman yang ditampilkan
+        const maxPageButtons = 10; // Ubah sesuai kebutuhan
+        const halfMaxButtons = Math.floor(maxPageButtons / 2);
+        let startPage = currentPage - halfMaxButtons;
+        let endPage = currentPage + halfMaxButtons;
+
+        // Pastikan startPage dan endPage tidak melewati batas
+        if (startPage < 1) {
+            startPage = 1;
+            endPage = Math.min(totalPages, maxPageButtons);
+        }
+        if (endPage > totalPages) {
+            endPage = totalPages;
+            startPage = Math.max(1, totalPages - maxPageButtons + 1);
+        }
+
+        for (let i = startPage; i <= endPage; i++) {
+            pageNumbers += `<button class="btn btn-secondary" onclick="goToPage(${i})">${i}</button>`;
+        }
+
+        return pageNumbers;
+    }
+
+    // Fungsi untuk pergi ke halaman tertentu
+    function goToPage(page) {
+        currentPage = page;
+        displayData(currentPage);
+    }
+
+    // Fungsi untuk halaman selanjutnya
+    function nextPage() {
+        const totalPages = Math.ceil(dataset.length / itemsPerPage);
+        if (currentPage < totalPages) {
+            currentPage++;
+            displayData(currentPage);
+        }
+    }
+
+    // Fungsi untuk halaman sebelumnya
+    function prevPage() {
+        if (currentPage > 1) {
+            currentPage--;
+            displayData(currentPage);
+        }
+    }
+
+    // Inisialisasi halaman pertama
+    displayData(currentPage);
+</script>
+</body>
+</html>
