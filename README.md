@@ -1,6 +1,6 @@
 
 # NLP Project By Python Newbie
-<p align="center"><img width="33%" src="Untitled.jpeg"></p>
+<p align="center"><img width="50%" src="Untitled.jpeg"></p>
 
 NLP (Natural Language Processing) adalah cabang dari kecerdasan buatan yang berhubungan dengan interaksi antara komputer dan manusia menggunakan bahasa alami, di project ini kita mengembangkan NLP yang menggunakan bahasa Indonesia Yang Bersifat Open Source Yang Digagas Oleh Anggota Grup Python Newbie.
 
@@ -89,8 +89,7 @@ Proses Decode Token
 ```python
 decoded_text = tokenizer.decode(encoded.ids)
 ```
-![Logo](hasil.png)
-
+<p text-align="justify"><img width="100%" src="image/hasil.png"></p>
 
 ## Contact
 
