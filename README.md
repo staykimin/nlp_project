@@ -9,6 +9,7 @@ Dalam project ini Kita bertujuan untuk mengembangkan NLP khusus bahasa Indonesia
 ## Index List
 - [Sumber Dataset](#Sumber_Dataset)
 - [Dataset](#Dataset)
+- [Fill Mask](#Fill_Mask)
 - [Tokenizer](#Tokenizer)
 - [Collabolator](#Collabolator)
 - [Scraping](https://github.com/staykimin/nlp_project/tree/kimin/Scraping)
@@ -35,6 +36,28 @@ Dataset Disimpan Dalam Format JSON dan Memiliki Beberapa Parameter Antara Lain
 | ID Sumber | Website Name     |
 | :-------- | :------- |
 | `1` | `Antara News` |
+
+## Fill_Mask
+Downlad Model Terlebih Dahulu Pada Link Berikut
+```bash
+https://drive.google.com/drive/folders/1g9Kfu3gNggyNgQucgLcUsUSENc9Gsad7?usp=drive_link
+```
+Install Transformers Terlebih Dahulu
+```bash
+pip install transformers
+```
+Import Pipeline Yang Ada Pada Transformers
+```python
+from transformers import pipeline
+```
+Load Model Menggunakan Media Pipeline
+```python
+model = pipeline('fill-mask', model='kimin-nlp', tokenizer='kimin-nlp')
+```
+Proses Fill Mask
+```python
+print(model(f"Dari Sekian Kata {model.tokenizer.mask_token} Kata Ini Lah Yang Paling Berharga"))
+```
 
 ## Tokenizer
 Tokenizer Dilakukan Menggunakan library Transformers Dengan Metode byte-level
@@ -66,27 +89,7 @@ decoded_text = tokenizer.decode(encoded.ids)
 ```
 ![Logo](hasil.png)
 
-## Fill Mask
-Downlad Model Terlebih Dahulu Pada Link Berikut
-```bash
-https://drive.google.com/drive/folders/1g9Kfu3gNggyNgQucgLcUsUSENc9Gsad7?usp=drive_link
-```
-Install Transformers Terlebih Dahulu
-```bash
-pip install transformers
-```
-Import Pipeline Yang Ada Pada Transformers
-```python
-from transformers import pipeline
-```
-Load Model Menggunakan Media Pipeline
-```python
-model = pipeline('fill-mask', model='kimin-nlp', tokenizer='kimin-nlp')
-```
-Proses Fill Mask
-```python
-print(model(f"Dari Sekian Kata {model.tokenizer.mask_token} Kata Ini Lah Yang Paling Berharga"))
-```
+
 ## Contact
 
 Untuk Contact Person, Bisa Langsung Gabung Pada Link Grup WA Berikut
