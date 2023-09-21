@@ -25,4 +25,5 @@ Script Yang Digunakan Untuk Mengumpulkan Dataset Yang Berupa Artikel Yang Terdap
   ```
   python app.py
   ```
-<p text-align="justify"><img width="100%" src="../scraping.png"></p>
+
+<p text-align="justify"><img width="100%" src="../image/scraping.png"></p>
