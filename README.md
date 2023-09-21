@@ -89,8 +89,10 @@ Proses Decode Token
 ```python
 decoded_text = tokenizer.decode(encoded.ids)
 ```
-<p text-align="justify"><img width="100%" src="image/hasil.png"></p>
 
+```
+<p text-align="justify"><img width="100%" src="image/hasil.png"></p>
+```
 ## Contact
 
 Untuk Contact Person, Bisa Langsung Gabung Pada Link Grup WA Berikut
